@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            color: red;
+            font-size: 20;
+        }
+        #redd{
+            color: green;
+        }
+        .class11{
+            color: blue;
+        }
+        div#dd{
+            font-size: 50;
+        }
+
+        ul>li.iid{
+            color: aqua;
+        }
+
+        ul>li:first-child{
+            font-size: 50px;
+        }
+        ul>li:nth-child(1){
+            font-size: 60px;
+        }
+        /* ul>li:first-of-type{
+            color: blue;
+        } */
+
+        p{background-image: url(../a.jpg);
+            background-repeat: repeat-y;
+        }
+        ul{list-style: square url(../a.jpg);}
+        a:link{
+            /* 正常得链接 */
+            color: brown;
+        }
+        a:visited{
+            /* 访问过得链接 */
+            color: blue;
+        }
+        a:hover{
+            /* 鼠标放上得颜色 */
+            color: yellowgreen;
+            font-size: 50;
+        }
+        a:active{
+            /* 鼠标点击得状态 */
+            color: chocolate;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <a href="tttps://www.baidu.com">这里是百度</a>
+    <p>这事第一行</p>
+    <p id="redd">这事第二行</p>
+    <p class="class11">这事第三行</p>
+    <p class="class11">这事第四行</p>
+    <div id="dd">zheshi ceshi 5</div>
+    <ul>
+        <!-- <span>这里是几呢？</span> -->
+        <li class="iid">这是0</li>
+        <li class="iid">这是1</li>
+        <li>这是2</li>
+        <li>这是3</li>
+        <li>这是4</li>
+        <li>这是5</li>
+    </ul>
+    
+</body>
+</html>

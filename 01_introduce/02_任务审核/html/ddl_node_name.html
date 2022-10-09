@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDL节点名称校验</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <style>
+        /* 设置nav的大小 */
+
+        .body-box {
+            width: 900px;
+            margin: 150px auto;
+            background-color: aqua;
+        }
+
+        .nav {
+            float: left;
+            /* 设置宽度和高度 */
+            /* width: 900px; */
+            /* height: 48px; */
+            /* 设置背景颜色 */
+            /* background-color: #E8E7E3; */
+
+            /* margin: 150px auto; */
+
+        }
+
+        /* 设置nav中li */
+        .nav li {
+            /* 设置li向左浮动，已使菜单横向排列 */
+            /* float: left; */
+            /* 设置li的高度 */
+            /* height: 48px; */
+            /* 将文字在父元素中垂直居中 */
+            width: 200px;
+            line-height: 40px;
+
+        }
+
+        /* 设置a的样式 */
+        .nav a {
+            /* 将a转换为块元素 */
+            display: block;
+            /* 去除下划线 */
+            text-decoration: none;
+            /* 设置字体颜色 */
+            color: #777777;
+            /* 修改字体大小 */
+            font-size: 14px;
+
+            padding: 0 39px;
+        }
+
+        .nav li:last-child a {
+            padding: 0 42px 0 41px;
+        }
+
+        /* 设置鼠标移入的效果 */
+        .nav a:hover {
+            background-color: #3F3F3F;
+            color: #E8E7E3;
+        }
+
+        .body-right1 {
+            width: 405px;
+            height: 200px;
+            border: 1px solid #101010;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 创建导航条的结构 -->
+
+    <div class="body-box">
+        <div class="body-left">
+            <ul class="nav">
+                <li>
+                    <a href="#">DDL语句检查</a>
+                </li>
+                <li>
+                    <a href="#">DDL节点名称检查</a>
+                </li>
+                <li>
+                    <a href="#">DML语句检查</a>
+                </li>
+                <li>
+                    <a href="#">DML节点名称检查</a>
+                </li>
+                <li>
+                    <a href="#">DI语句检查</a>
+                </li>
+                <li>
+                    <a href="#">DI节点名称检查</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="body-right1">
+
+        </div>
+
+        <div class="body-right2">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
